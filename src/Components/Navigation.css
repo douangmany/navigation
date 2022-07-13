@@ -1,0 +1,23 @@
+.nav-menu{
+    background:rgb(170, 212, 233);
+    width:250px;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    top:0;
+    left:-100%;
+    transition:850ms;
+}
+.nav-menu.active{
+    left:0%;
+    transition:350ms;
+
+}
+.navbar{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    height:80px;
+
+}
